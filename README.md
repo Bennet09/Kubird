@@ -1,89 +1,90 @@
-Kubird
+# Kubird
 
-Kubird is an Android application built using Kotlin. The app utilizes GPS functionality to pinpoint bird sightings and allows users to manage and share information about birds they encounter in specific locations.
+Kubird is an Android application built with Kotlin that helps users track and share bird sightings using GPS functionality.
 
-How to Execute the Application
+## Features
 
-1. Environment Needed / Requirements
+- GPS-based bird sighting tracking
+- User authentication system
+- Interactive map interface
+- Bird sighting management
+- Community sharing capabilities
 
-To run the application, ensure your environment meets the following requirements:
+## Requirements
 
-Android Studio (latest version recommended)
+- Android Studio (latest version)
+- JDK 8 or higher
+- Minimum 4GB RAM
+- Android device or emulator
+- Active internet connection
 
-JDK 8 or higher
+## Installation
 
-Minimum 4 GB of RAM
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/kubird.git
+2. Open Android Studio
+3. Select `File > Open` and navigate to the project directory
+4. Select the folder containing the `build.gradle` file
+5. Wait for the project to sync with Gradle
 
-Android device or emulator
+## Setup
 
-Internet connection (for additional features, such as map rendering)
+### Emulator Setup
+1. Open Android Virtual Device (AVD) Manager in Android Studio
+2. Create a new virtual device with GPS capabilities
+3. Ensure the Android version is compatible with app requirements
 
-2. Opening the Application
+### Physical Device Setup
+1. Enable Developer Mode on your Android device
+2. Enable USB Debugging
+3. Connect device via USB to your computer
 
-Follow these steps to open and execute the application in Android Studio:
+## Running the Application
 
-Clone or download the project repository.
+1. Open the project in Android Studio
+2. Wait for Gradle sync to complete
+3. Click the Run button (green play icon) or press `Shift + F10`
+4. Select your target device/emulator
+5. Wait for the app to build and deploy
 
-If downloaded as a .zip file, extract it to your desired directory.
+## Usage Guide
 
-Open Android Studio.
+### First Launch
+1. Grant required location permissions
+2. Register a new account or login
 
-Select File > Open and navigate to the project directory.
+### Core Functions
+- View Map: Access the main map interface
+- Add Sighting: Pin location and add bird details
+- View History: Check previous sightings
+- Share: Share sightings with community
 
-Select the folder containing the build.gradle file.
+## Permissions Required
 
-Sync the project with Gradle:
+- Location Services (GPS)
+- Internet Access
+- Storage (for saving sighting data)
 
-Once the project is loaded, click "Sync Now" if prompted to sync Gradle files.
+## Troubleshooting
 
-Configure your emulator or connect your Android device:
+- Ensure GPS is enabled on your device
+- Verify internet connectivity
+- Check if location permissions are granted
+- Confirm Android Studio is updated to latest version
 
-For an emulator, ensure it has GPS functionality enabled and an Android version compatible with the app's requirements.
+## Contributing
 
-For a physical device, enable Developer Mode and USB Debugging, then connect it to your computer via USB.
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-Run the application:
+## License
 
-Click the Run button (green play icon) in the top toolbar or press Shift + F10.
+This project is licensed under the MIT License - see the LICENSE file for details
 
-Choose your preferred emulator or connected device from the list.
+## Contact
 
-Once deployed, the application will launch on the selected device or emulator.
-
-3. How to Use the Application
-
-After launching the Bird Locator application:
-
-Grant Permissions:
-
-The app will request location permissions to access the GPS.
-
-Approve the permissions to proceed.
-
-Log in or Register:
-
-If you are a new user, register an account.
-
-Existing users can log in with their credentials.
-
-Locate Birds:
-
-Use the map interface to view and record bird sightings.
-
-The app will display your current location on the map.
-
-Add Sightings:
-
-Pin a location on the map and add details about the bird sighting (e.g., species, time, behavior).
-
-Share Information:
-
-Share your bird sightings with the community or export them for personal records.
-
-Notes
-
-Ensure your device or emulator has GPS functionality enabled for accurate location tracking.
-
-The app requires an active internet connection for map services and sharing features.
-
-For troubleshooting or support, refer to the project's documentation or contact the development team.
+For support or queries, please contact the development team at [email@example.com]
